@@ -1,0 +1,145 @@
+/*
+Author: Vijay Thapa
+theme: food Online
+verion: 1.0
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* this creates kinda box around texts */
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+ /* for making texts centered */
+.text-center{
+    text-align: center;
+}
+
+/* buttons */
+
+.btn-primary{
+    background-color: #575fcf;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #7c6fe2;
+}
+
+.btn-up{
+    background-color: #303952;
+    color: white;
+    padding: 1%;
+    margin: 1px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-up:hover{
+    background-color: #3e4c71;
+}
+
+.btn-dlt{
+    background-color: #c23616;
+    color: white;
+    padding: 1%;
+    margin: 1px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-dlt:hover{
+    background-color: #e84118;
+}
+
+.success{
+    color: rgb(41, 206, 41);
+}
+
+.error{
+    color: #e84118;
+}
+/* /////////////////CSS for Menu ////////////////*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    /* removes the dot/circles */
+    list-style-type: none;
+} 
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.menu ul li a{
+color: rgb(0, 179, 255);
+text-decoration: none;
+/* removes the defaulty underlines */
+}
+
+.menu ul li a:hover{
+    color: #70a1ff;
+}
+
+/* /////////////CSS for main content //////////////// */
+
+.main-content{
+    background-color: #ced6e0;
+    margin: 1% 0;
+    padding: 2% 0;
+}
+.box{
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+.clearfix{
+ clear: both;
+ float: none;
+}
+
+.tbl-full{
+   width: 100%; 
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+/*//////////////css for footer ///////// */
+.footer{
+    background-color: #7c6fe2;
+    color: white;
+}
+
+/* css for login  */
+
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+
+}
